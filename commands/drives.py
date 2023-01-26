@@ -4,6 +4,8 @@ import os
 import string
 import platform
 
+
+
 class Command:
     def __init__(self):
         self.data = {"name": "Check that all the drives are there", 'aliases':['check drives', 'check drive .+', 'what drives are available']}

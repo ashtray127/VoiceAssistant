@@ -11,6 +11,32 @@ import threading
 import data.commands as commands
 import data.voice as voice
 
+#Ideas for commands:
+# - "Minimize all windows"
+# - "Connect to VPS"
+# - "Connect to VPS #2"
+# - "Connect to Pi"
+# - "Open Coding folder"
+# - "Open my usual setup"
+# - "Write to drives"
+# - "Create new task"
+# - "Create note"
+# - "Open VirtualBox"
+# - "Open Coding setup"
+# - "Create new Coding project"
+# - "Take screenshot of window"
+# - "Take screenshot on montior 1"
+# - "Take screenshot on montior 2"
+# - "Take screenshot on both monitors"
+# - "Take screenshot of window on monitor 1"
+# - "Take screenshot of window on monitor 2"
+# - "Search for <query>"
+# - "Search for <query> on stackoverflow"
+# - "Pause/resume music"
+# - "Shutdown computer"
+# - "Restart computer"
+
+
 r = sr.Recognizer()
 mic = sr.Microphone()
 engine = voice.init()
