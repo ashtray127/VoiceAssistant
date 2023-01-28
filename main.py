@@ -13,15 +13,10 @@ import data.voice as voice
 
 #Ideas for commands:
 # - "Minimize all windows"
-# - "Connect to VPS"
-# - "Connect to VPS #2"
-# - "Connect to Pi"
-# - "Open Coding folder"
 # - "Open my usual setup"
 # - "Write to drives"
 # - "Create new task"
 # - "Create note"
-# - "Open VirtualBox"
 # - "Open Coding setup"
 # - "Create new Coding project"
 # - "Take screenshot of window"
