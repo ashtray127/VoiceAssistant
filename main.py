@@ -51,7 +51,7 @@ with mic as source:
 threading.Thread(target=startupSound).start()
 print("Keyword: computer")
 try:
-    porcupine = pvporcupine.create(access_key='M2qfpLrds0YOzDwINJ48Ehfy0ndLOKk8BL0UCCIuDPHS3rNd5hOatA==',keywords=["computer"])
+    porcupine = pvporcupine.create(access_key='',keywords=["computer"])
     pa = pyaudio.PyAudio()
     audio_stream = pa.open(
                 rate=porcupine.sample_rate,
